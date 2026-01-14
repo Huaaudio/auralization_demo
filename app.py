@@ -204,7 +204,7 @@ def main():
     # Check if .mat file exists
     mat_file_path = "TestPlateForJiahua.mat" # Ensure this is in folder
     if not os.path.exists(mat_file_path):
-        st.sidebar.warning("⚠️ 'TestPlateForJiahua.mat' not found. Numerical features disabled.")
+        st.sidebar.warning("Numerical features disabled due to limitations of online demo environment.")
     else:
         if st.sidebar.button("▶ Run Numerical STL Simulation"):
             with st.spinner("Running Finite Element Simulation..."):
