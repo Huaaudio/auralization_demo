@@ -1,0 +1,7 @@
+streamlit
+numpy
+scipy
+plotly
+soundfile
+mosqito
+matplotlib
