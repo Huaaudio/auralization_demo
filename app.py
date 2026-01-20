@@ -175,7 +175,7 @@ def main():
             m_res = m_panel_mass * m_ratio
 
     # --- SIMULATION & CALCULATION ---
-    freqs = np.linspace(10, 4000, 1000)
+    freqs = np.arange(10, 4000, 1)
     
     # Calculate Models
     tau_meta = None

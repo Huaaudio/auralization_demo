@@ -104,7 +104,7 @@ def main(freq_in=None, f_res=None, m_ratio=None, eta_res=None, filename='TestPla
     if freq_in is not None:
         freq = freq_in
     else:
-        freq = np.arange(20, 3005, 5) # 20:5:3000 (include end)
+        freq = np.arange(10, 4000, 1) # 20:5:3000 (include end)
     omega = 2 * np.pi * freq
 
     # Modal basis
